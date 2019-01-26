@@ -17,7 +17,12 @@ double CrazyRandomSword::hit(double armor){
 	
     srand (time(NULL));	//seed random time function
     
-    damage = rand()  % 10;
+    
+    
+    damage =  floor(armor/3);
+    int random_number = (int)damage;
+    random_number = rand() % random_number +2;
+    damage = random_number;
 
 
     if(damage < 0)
