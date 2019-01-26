@@ -24,6 +24,7 @@ public:
     virtual ~CommonSpear() {};
 
     virtual double hit(double armor);
+    
 
 };
 
