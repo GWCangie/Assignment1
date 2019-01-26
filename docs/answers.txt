@@ -1,0 +1,69 @@
+a) Angelas-MBP:docs angeladon$ git push origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 437 bytes | 437.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/GWCangie/Assignment1.git
+   4172737..ad59999  master -> master
+
+b) Using the command  "git shortlog" I saw there are 5 commits so far.
+Angela Don (2):
+      Angela Don git status console
+      Part 3D of hw
+
+Angie (1):
+      Added my name and FSUID
+
+Javier Escobar-Avila (2):
+      First version of the RoleGame prototype.
+      Main method changed 
+
+c) The .gitignore was last modified Jan 10. The command I used was 
+   "git log  .gitignore"
+
+d) Two reason branches are used in a Git repository to:
+   1. Create an independent line of development in a pre -existing repo so as
+     to test out a feature.
+   2. Allows multiple programmers to work on one feature without interference 
+      from each other. In the end the programmer with the best feature can 
+      merge their branch. 
+
+e) When ran, git log will show you the record of commits from the repository. 
+   This includes the Author, Date and commit message. However, when you run 
+   git status it tells you the modified files that have not been committed in 
+   your working directory. This is different than gitlog in that it does not 
+  show you the Author or message description of commits to the repo. 
+
+f) I used the command "git log -p Weapon.h" to view the commits involving
+   the specific file.
+
+g) Using the command "git log --grep=Don" I was able to see the commits 
+   containing the word "Don".   
+
+h) Inheritance is the reusability of one class by passing its fields and 
+   methods to another class i.e. the "child" class. This allows the child
+   class to have its own methods and fields while also having the parent's
+   information. 
+   Polymorphism is the mechanism by which a child class can override a 
+   parents method to execute its own set of instructions. 
+   Encapsulation is the practice of providing information on a need to 
+   know basis. This restriction of information keeps fields within a class
+   private and provides accessibility to modiafiable information through
+   public methods. This protects variables from being easily modifiable in 
+   the open.
+
+i) In the "Dictator and Lieutenants" workflow there is a certain hierarchy
+   changes have to go through before they are merged to the blessed repo.
+   Although the Director is the only one that can push to the blessed repo
+   the process of conflict resolution is handles by the two Lieutenants. 
+   However, in the centralized workflow it is up to the developers to solve
+   any conflicts before pushing to the central repository.
+ 
+j) A team of 100 developers would cause havoc in a centralized workflow.
+   All 100 developers would be pushing to the central repository having 
+   tested there code at different times meaning they may not have caught 
+   a conflict that may have arisen with a merge that was uploaded a minute
+   later.
+ 
