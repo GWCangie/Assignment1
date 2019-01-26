@@ -32,6 +32,7 @@ private:
 	int random_gen(){
 		srand(time(NULL));
 		int num = rand() %100 + 7;
+		return num;
 	}
     
 };
