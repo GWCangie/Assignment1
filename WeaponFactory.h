@@ -10,13 +10,13 @@
 #define WEAPONFACTORY_H
 
 /**
+     * Return an implementation of a weapon given its name
  * Creation of weapons is encapsulated into the WeaponFactory class.
  *  
  */
 class WeaponFactory{
 public:    
     /**
-     * Return an implementation of a weapon given its name
      * @param name Name of the weapon to be created
      * @return Implementation of the method (an instance of the Weapon class)
      */

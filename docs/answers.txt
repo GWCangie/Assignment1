@@ -39,8 +39,8 @@ e) When ran, git log will show you the record of commits from the repository.
 f) I used the command "git log -p Weapon.h" to view the commits involving
    the specific file.
 
-g) Using the command "git log --grep=Don" I was able to see the commits 
-   containing the word "Don".   
+g) Using the command "git log --grep=file" I was able to see the commits 
+   containing the word "file".   
 
 h) Inheritance is the reusability of one class by passing its fields and 
    methods to another class i.e. the "child" class. This allows the child
@@ -67,3 +67,11 @@ j) A team of 100 developers would cause havoc in a centralized workflow.
    a conflict that may have arisen with a merge that was uploaded a minute
    later.
  
+5) The RoleGame prototype is using polymorphism because it requires each 
+   specific weapon to inherit the methods and fields from the parent class Weapons.
+   These methods and fields are then overidden by the specific hit amount each
+   specific weapon has. This polymorphism allows multiple children weapons to 
+   exist under the parent class Weapons while having their own modified version of 
+   the hit method. The class is also using encapsulation because the main function
+   only allows the manipulation of the armor function. The chosen armor value is 
+   then passed into the hit function that processes the points directly. 
