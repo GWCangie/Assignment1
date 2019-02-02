@@ -31,7 +31,7 @@ private:
 	// function to provide random number				
 	int random_gen(){
 		srand(time(NULL));
-		int num = rand() %93 + 7;
+		int num = rand() %94 + 7;
 		return num;
 	}
     
